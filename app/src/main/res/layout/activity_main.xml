@@ -74,6 +74,7 @@
         android:id="@+id/disView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/noorehuda"
         android:ellipsize="middle"
         android:text="بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ"
         android:textColor="#0D42C8"

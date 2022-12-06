@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 int suratInt = Integer.parseInt(suratNum.getText().toString());
                 int ayatInt = Integer.parseInt((ayatNum.getText().toString()));
-                if(suratInt>0 && ayatInt >0) {
+                if(suratInt>0 && ayatInt >0 && suratInt <=114) {
                     int temp1 = qsh.SSP[suratInt - 1];
                     int validAyatNo = qsh.SSP[suratInt]-qsh.SSP[suratInt-1]-1;
                     System.out.println(validAyatNo);
